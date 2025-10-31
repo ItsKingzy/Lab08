@@ -14,7 +14,7 @@ public class CustomList {
         return cities.size();
     }
     public void addCity(City city) {
-        //cities.add(city);
+        cities.add(city);
     }
 
     
