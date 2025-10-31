@@ -10,11 +10,22 @@ public class CustomList {
         this.cities = new ArrayList<>();
     }
 
+
+    // This is countCities method
     public int getCount() {
         return cities.size();
     }
     public void addCity(City city) {
         cities.add(city);
+    }
+
+    public boolean hasCity(City city) {
+        //return cities.contains(city);
+        return false;
+    }
+
+    public void deleteCity(City city) {
+        //cities.remove(city);
     }
 
     
